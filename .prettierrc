@@ -1,0 +1,30 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 150,
+        "singleQuote": false
+      }
+    },
+    {
+      "files": "*.{scss,css}",
+      "options": {
+        "tabWidth": 2,
+        "singleQuote": true
+      }
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "options": {
+        "trailingComma": "all",
+        "semi": false
+      }
+    }
+  ]
+}

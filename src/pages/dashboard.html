@@ -1,0 +1,181 @@
+<!-- Build Date : <%= htmlWebpackPlugin.options.templateParameters.buildDate %> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUB Page 1</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container-fluid">
+          <div class="header-inner">
+            <div class="brand-logo">
+              <h1 class="text_logo">DANUSYS</h1>
+            </div>
+
+            <div class="search col-12 col-md-auto justify-content-center">
+              <div class="row">
+                <div class="col-auto">
+                  <label for="exampleDataList" class="form-label">Datalist example</label>
+                </div>
+                <div class="col-auto">
+                  <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search..." />
+                  <datalist id="datalistOptions">
+                    <option value="San Francisco"></option>
+                    <option value="New York"></option>
+                    <option value="Seattle"></option>
+                    <option value="Los Angeles"></option>
+                    <option value="Chicago"></option>
+                  </datalist>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-3 text-end">
+              <div class="">메뉴</div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="contents container-fluid">
+        <main class="main">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <nav>
+                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button
+                      class="nav-link active"
+                      id="nav-home-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-home"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-home"
+                      aria-selected="true"
+                    >
+                      Home
+                    </button>
+                    <button
+                      class="nav-link"
+                      id="nav-profile-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-profile"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-profile"
+                      aria-selected="false"
+                    >
+                      Profile
+                    </button>
+                    <button
+                      class="nav-link"
+                      id="nav-contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-contact"
+                      aria-selected="false"
+                    >
+                      Contact
+                    </button>
+                    <button
+                      class="nav-link"
+                      id="nav-disabled-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-disabled"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-disabled"
+                      aria-selected="false"
+                      disabled
+                    >
+                      Disabled
+                    </button>
+                  </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">...</div>
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
+                  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+                  <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">...</div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">This is some text within a card body.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div id="chart"></div>
+              </div>
+            </div>
+
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+            <div style="height: 30rem; outline: 1px solid red">여백</div>
+          </div>
+        </main>
+
+        <aside class="aside">
+          <div class="container">
+            <div class="d-flex flex-wrap justify-content-between">
+              <button type="button" class="btn btn-primary">새 이슈 등록</button>
+              <button type="button" class="btn">
+                <i class="bi-alarm" style="font-size: 3rem"></i>
+              </button>
+              <img src="../assets/images/mapIcons/marker_event_movement.svg" alt="맵 아이콘" />
+              <img src="../assets/images/search_black.svg" alt="아이콘" />
+            </div>
+            <div class="row">
+              <div class="col">
+                <ul class="nav">
+                  <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">대시보드</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">이슈 관리</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">통계/보고서</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">BS관리</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="row">
+              <div class="col">
+                <a href="#" class="btn btn-primary">새 이슈 등록</a>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>

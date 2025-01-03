@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+// 공통 변수 및 bootstrap 초기화
+@use 'reset';
+@use 'fonts';
+@use 'variables' as *;
+
+@use 'bootstrap/scss/bootstrap' as *;
+@use 'mixins' as *;
+
+// 페이지 별 style
+@use 'layout';

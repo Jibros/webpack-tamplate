@@ -1,0 +1,14 @@
+@use './variables' as *;
+
+h1 {
+  font-family: $default-font-family;
+  font-weight: 100;
+}
+
+.icon {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  outline: 1px solid darkcyan;
+  background: url($image-url + 'icons/icon-action.svg') center no-repeat;
+}
